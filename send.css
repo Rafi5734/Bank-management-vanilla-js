@@ -1,0 +1,29 @@
+.send-content {
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 30vh;
+}
+.send-form {
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 60vh;
+}
+.the-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.send-title {
+    position: relative;
+    top: 50px;
+}
+.balance {
+    font-size: 70px;
+}

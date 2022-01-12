@@ -1,0 +1,25 @@
+.mobile-content {
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 20vh;
+}
+.mobile-title {
+    position: relative;
+    top: 50px;
+}
+.main-mobile {
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 60vh;
+}
+/* .mobile-form {
+    margin-top: 50px;
+} */

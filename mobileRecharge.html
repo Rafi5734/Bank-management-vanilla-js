@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mobile Recharge</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="mobileRecharge.css" />
+    </head>
+    <body>
+        <div class="container mt-5 mb-5">
+            <div class="mobile-content container mt-5 text-center mb-5">
+                <h4 class="mobile-title">Total Balance:</h4>
+                <h1 class="mobile-title">
+                    $<span class="balance">100.00</span>
+                </h1>
+            </div>
+            <div class="container main-mobile">
+                <h1 class="mobile-title text-center mb-5">Mobile Recharge</h1>
+                <form class="row g-3 needs-validation container mobile-form" style="margin-top: 100px" validate>
+                    <div class="col-md-6">
+                        <label for="validationCustom04" class="form-label"
+                            >Select Your Operator</label
+                        >
+                        <select
+                            class="form-select"
+                            id="validationCustom04"
+                            required
+                        >
+                            <option selected disabled value="">
+                                Choose Your Operator</option>
+                            </option>
+                            <option>GrammenPhone</option>
+                            <option>Robi</option>
+                            <option>Banglalink</option>
+                            <option>Airtel</option>
+                            <option>Teletalk</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom02" class="form-label"
+                            >Receiver Phone Number</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationCustom02"
+                            required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustomUsername" class="form-label"
+                            >Recharge Amount</label
+                        >
+                        <div class="input-group has-validation">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend"
+                                required
+                            />
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label"
+                            >Your Account Number</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationCustom03"
+                            required
+                        />
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">
+                            Recharge Mobile
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="mobileRecharge.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
