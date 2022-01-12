@@ -1,0 +1,32 @@
+.addMoney-container-main {
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.addMoney-container-second {
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background: #ffffff;
+    -webkit-box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d9d9d9, -12px -12px 24px #ffffff;
+    width: 100%;
+    height: 60vh;
+}
+.addMoney-title {
+    position: relative;
+    top: 50px;
+}
+.addMoney-container-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
