@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cash Out</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="cash.css" />
+    </head>
+    <body>
+        <div class="container mt-5 mb-5">
+            <div class="cash-main mt-5 text-center mb-5">
+                <h4 class="cash-title">Total Balance:</h4>
+                <h1 class="cash-title">$<span class="balance">100.00</span></h1>
+            </div>
+            <div class="cash-second container">
+                <div class="cash-second-title">
+                    <h1 class="cash-second-title text-center mb-5 mt-5">
+                        Cash Out Money
+                    </h1>
+                </div>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="validationServer01" class="form-label"
+                            >Your Account Number</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationServer01"
+                            placeholder="Type your account number"
+                            required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationServer02" class="form-label"
+                            >Your Amount</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationServer02"
+                            placeholder="type your amount"
+                            required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationServerUsername" class="form-label"
+                            >Reference Code</label
+                        >
+                        <div class="input-group has-validation">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="validationServerUsername"
+                                placeholder="type your reference code"
+                                aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback"
+                                required
+                            />
+                            <div
+                                id="validationServerUsernameFeedback"
+                                class="invalid-feedback"
+                            >
+                                Please type a reference code.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationServer03" class="form-label"
+                            >Date & Time</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="validationServer03"
+                            placeholder="it will come automatically"
+                            aria-describedby="validationServer03Feedback"
+                            required
+                        />
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">
+                            Submit form
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="cash.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
