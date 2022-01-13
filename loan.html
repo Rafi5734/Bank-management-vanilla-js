@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Loan</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="loan.css" />
+    </head>
+    <body>
+        <div class="container loan-first mt-5 mb-5">
+            <div class="loan-heading">
+                <h4 class="loan-title">Total Balance:</h4>
+                <h1 class="loan-title">$<span class="balance">100.00</span></h1>
+            </div>
+            <div class="loan-main container text-center mt-5">
+                <div class="loan-main-heading">
+                    <h1 class="second-title text-center mb-5">Loan</h1>
+                </div>
+                <div class="loan-form container mt-5 text-center">
+                    <form class="row g-3 mt-5">
+                        <div class="col-md-6">
+                            <label for="validationDefault01" class="form-label"
+                                >Your Address</label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="validationDefault01"
+                                placeholder="Your Address"
+                                required
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault02" class="form-label"
+                                >Your Phone Number</label
+                            >
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="validationDefault02"
+                                placeholder="type your phone number"
+                                required
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <label
+                                for="validationDefaultUsername"
+                                class="form-label"
+                                >Loan Amount</label
+                            >
+                            <div class="input-group">
+                                <input
+                                    type="number"
+                                    placeholder="type your loan amount"
+                                    class="form-control"
+                                    id="validationDefaultUsername"
+                                    aria-describedby="inputGroupPrepend2"
+                                    required
+                                />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault03" class="form-label"
+                                >Reference Code</label
+                            >
+                            <input
+                                type="number"
+                                placeholder="reference code will come automatically"
+                                class="form-control"
+                                id="validationDefault03"
+                                required
+                            />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault04" class="form-label"
+                                >Loan Terms</label
+                            >
+                            <select
+                                class="form-select"
+                                id="validationDefault04"
+                                required
+                            >
+                                <option selected disabled value="">
+                                    Choose Your loan criteria
+                                </option>
+                                <option>12 Months (1 years)</option>
+                                <option>24 Months (2 years)</option>
+                                <option>36 Months (3 years)</option>
+                                <option>48 Months (4 years)</option>
+                                <option>60 Months (5 years)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationDefault05" class="form-label"
+                                >Interest Rate</label
+                            >
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="validationDefault05"
+                                required
+                                placeholder="it will come automatically default according to the amount"
+                            />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault05" class="form-label"
+                                >Date & Time</label
+                            >
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="validationDefault05"
+                                required
+                                placeholder="it will come automatically default according to the amount"
+                            />
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">
+                                Loan
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="loan.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
